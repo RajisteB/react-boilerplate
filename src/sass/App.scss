@@ -3,26 +3,35 @@
    - Author:   @raj_bennin
 */
 
+// abstracts
+@import './abstracts/_variables';
+@import './abstracts/_functions';
+@import './abstracts/_mixins';
+
 // Base
 @import './base/_reset';
 @import './base/_typography';
 
 // Components
-
+@import './components/_avatar';
+@import './components/_button';
+@import './components/_card';
+@import './components/_drawer';
+@import './components/_form';
+@import './components/_list';
+@import './components/_menu';
+@import './components/_modal';
+@import './components/_snackbar';
 
 // Layout
 @import './layout/_responsive';
-
+@import './layout/_grid';
 
 // Pages
-
+@import './pages/_home.scss';
 
 // Themes
-
-
-// Utils
-@import './utils/_variables';
-@import './utils/_functions';
-@import './utils/_mixins';
+@import './themes/_themes.scss';
 
 // Vendors
+@import './vendors/_vendors';
